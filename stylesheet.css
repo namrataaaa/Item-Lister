@@ -1,3 +1,7 @@
+.container{
+  font-family: "comic sans MS";
+}
+
 .title{
   position: relative;
   animation: addItemsAnimation;
