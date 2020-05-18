@@ -1,0 +1,45 @@
+.title{
+  position: relative;
+  animation: addItemsAnimation;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+ }
+ 
+ @keyframes addItemsAnimation{
+  0% {left: -1000px;}
+  100% {left: 0;}
+}
+
+.btn{
+    opacity: 0;
+    animation-name: btn;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+@keyframes btn{
+    0% {opacity: 0;}
+    100% {opacity: 1};
+}
+
+.btn:hover{
+    transform: rotateY(180deg);
+}
+
+#box{
+  position: relative;
+  animation: box-animation;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+ }
+ 
+ @keyframes box-animation{
+  0% {top: -50px;}
+  100% {top: 200px;}
+}
+
