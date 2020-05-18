@@ -10,7 +10,7 @@
   100% {left: 0;}
 }
 
-.btn{
+#submit-btn{
     opacity: 0;
     animation-name: btn;
     animation-duration: 3s;
